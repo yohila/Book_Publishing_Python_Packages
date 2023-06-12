@@ -98,7 +98,7 @@ jobs:
 
       - uses: actions/upload-artifact@v3
         with:
-          path: /artifacts/*.tar.gz
+          path: artifacts/dist/*.tar.gz
 
   # build_wheels:
   #   name: Build wheels on ${{ matrix.os }}
